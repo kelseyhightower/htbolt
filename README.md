@@ -1,6 +1,6 @@
 # htbolt - Manipulate boltdb password databases
 
-htbolt is used to manipulate a boltdb database used to store usernames and passwords for basic authentication of HTTP users.
+htbolt is used to manipulate a boltdb database used to store usernames and passwords for basic authentication of HTTP users. See the [passwd package docs](passwd) for usage with a HTTP server.
 
 ## Usage
 
