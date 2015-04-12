@@ -4,7 +4,7 @@ htbolt is used to manipulate a boltdb database used to store usernames and passw
 
 ## Usage
 
-Add or update a user entry.
+### Add or update a user entry.
 
 ```
 htbolt -f .boltpasswd -u kelsey -c "basic auth user account"
@@ -24,7 +24,7 @@ htbolt -n -f .boltpasswd -u kelsey -c "basic auth user account"
 }
 ```
 
-List all users
+### List all users
 
 ```
 htbolt -l -f .boltpasswd
@@ -33,13 +33,15 @@ htbolt -l -f .boltpasswd
 kelsey # basic auth user account 
 ```
 
-Verify an username and password. If valid exit code will be set to 0.
+### Verify an username and password.
+
+If valid exit code will be set to 0.
 
 ```
 htbolt -v -f .boltpasswd -u kelsey
 ```
 
-Delete a user
+### Delete a user
 
 ```
 htbolt -x -f .boltpasswd -u kelsey
